@@ -20,14 +20,13 @@
 				<!-- First slide -->
 				<section ch="-1" style="position: relative; height: 100%;">
 					<h3 style="color: rgb(10,100,147); margin: 5%">The EU Knowledge Graph</h3>
-					<div style="font-size: 25px; padding-top: 25px;">Dennis Diefenbach (The QA Company)</div>
-					<div style="font-size: 25px; padding-top: 25px;">Max De Wilde (DG CNECT, European Commission)</div>
-					<div style="font-size: 25px; padding-top: 25px;">Anne Thollard (DG REGIO, European Commission)</div>
-					<div style="font-size: 25px; padding-top: 25px;">@Semantics 2021 (hybrid)</div>
-					<div style="font-size: 25px; padding-top: 25px;">07.09.2021</div>
+					<div style="font-size: 40px; padding-top: 25px;">Dennis Diefenbach</div>
+					<div style="font-size: 25px; padding-top: 25px;">The QA Company</div>
+					<div style="font-size: 25px; padding-top: 25px;">@KGC 2023</div>
+					<div style="font-size: 25px; padding-top: 25px;">07.05.2023</div>
                     <img src="assets/logo_QA.png" style="margin-top: 5%; height: 100px; border: none; box-shadow: none;">
 					<!--<img src="http://commons.wikimedia.org/wiki/Special:FilePath/European%20Commission.svg" style="margin-top: 5%; height: 100px; border: none; box-shadow: none;">-->
-					<img src="assets/semantics-amsterdam-2021-2.png" style="margin-top: 5%; height: 70px; border: none; box-shadow: none; margin-left: 30px;">
+					<img src="assets/kgc.webp" style="margin-top: 5%; height: 70px; border: none; box-shadow: none; margin-left: 30px;">
 					<!--<h4>From BibTeX input:</h4>-->
 					<div id="key1" class="cite" data-type="bib" ></div>
 					<div id="key2" class="cite" data-type="bib" ></div>
@@ -134,13 +133,22 @@
 						<div>Buildings</div>
 					</section>
 					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q19837" data-background-interactive>
-						<div>942.289 projects co-funded by the European Union</div>
+						<div>1.832.112 projects co-funded by the European Union</div>
 					</section>
 					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2509317" data-background-interactive>
-						<div>257.784 beneficiaries of EU funds</div>
+						<div>643.760 beneficiaries of EU funds</div>
+					</section>
+					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2500884" data-background-interactive>
+						<div>NUTS</div>
 					</section>
 					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q2837746" data-background-interactive>
 						<div>Linked Data Solutions</div>
+					</section>
+					<section ch="2" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q4659261" data-background-interactive>
+						<div>SPARQL Endpoint Catalogue</div>
+					</section>
+					<section ch="2">
+						<div>and more ....</div>
 					</section>
 				</section>
 				<section>
@@ -212,7 +220,7 @@
 						<h3> 2. Query Service</h3>
 						<div>Available at <a href="https://query.linkedopendata.eu">https://query.linkedopendata.eu</a></div>
 					</section>
-					<section ch="2" data-background-iframe="https://query.linkedopendata.eu/#%23defaultView%3AMap%20%0ASELECT%20DISTINCT%20%3Fs1%20%3Fcoordinates%20WHERE%20%7B%0A%20%20%20%20%20%3Fs1%20%20%3Fp1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ63%3E%20.%20%0A%09%20%3Fs1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP35%3E%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ8636%3E%20.%20%0A%20%20%20%20%20%3Fs1%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP127%3E%20%3Fcoordinates%20.%0A%20%7D%20%20LIMIT%201000" data-background-interactive>
+					<!-- <section ch="2" data-background-iframe="https://query.linkedopendata.eu/#%23defaultView%3AMap%20%0ASELECT%20DISTINCT%20%3Fs1%20%3Fcoordinates%20WHERE%20%7B%0A%20%20%20%20%20%3Fs1%20%20%3Fp1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ63%3E%20.%20%0A%09%20%3Fs1%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP35%3E%20%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fentity%2FQ8636%3E%20.%20%0A%20%20%20%20%20%3Fs1%20%3Chttps%3A%2F%2Flinkedopendata.eu%2Fprop%2Fdirect%2FP127%3E%20%3Fcoordinates%20.%0A%20%7D%20%20LIMIT%201000" data-background-interactive> -->
 					</section>
 					<section ch="2">
 						<h3> 3. Question Answering</h3>
@@ -224,12 +232,6 @@
 					<section ch="2" data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20president%20of%20france&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
 					</section>
 					<section ch="2" data-background-iframe="https://qa.linkedopendata.eu/qa/full?query=who%20is%20the%20director%20of%20dg%20connect&tags=%5B%5D&lang=en&kb=eu&user=commission" data-background-interactive>
-					</section>
-					<section ch="2">
-						<h3> Can be integrated in chatbots</h3>
-						<div>Available at <a href="https://chatbot.cnect.eu/">https://chatbot.cnect.eu/</a></div>
-					</section>
-					<section ch="4" data-background="assets/dori.png">
 					</section>
 				</section>
 				<section ch="3" id="kohesio">
@@ -260,7 +262,7 @@
 						<li>Wikidata</li>
 					</ol>
 				</section>
-				<section ch="3" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
+				<section ch="3" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q3700060" data-background-interactive>
 				</section>
 				<section ch="3">
 					<h2>Enriching the data</h2>
@@ -271,7 +273,7 @@
 						<li>Linking NUTS regions and beneficiaries with Wikidata</li>
 					</ol>
 				</section>
-				<section ch="3" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q77409" data-background-interactive>
+				<section ch="3" data-background-iframe="https://linkedopendata.eu/wiki/Item:Q3700060" data-background-interactive>
 				</section>
 				<section ch="3">
 					<h2>Build a website for citizens on top</h2>
